@@ -15,6 +15,9 @@ EXTRA_FOD_ANIMATIONS := true
 # Inherit some common Nusantara stuff
 $(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
 
+# Nusantara Project Official
+NAD_BUILD_TYPE := OFFICIAL
+
 # Device identifier
 PRODUCT_NAME := nad_RMX2170
 PRODUCT_DEVICE := RMX2170
