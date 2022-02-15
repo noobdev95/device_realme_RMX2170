@@ -15,6 +15,10 @@ EXTRA_FOD_ANIMATIONS := true
 # Inherit some common Havoc stuff
 $(call inherit-product, vendor/havoc/config/common_full_phone.mk)
 
+HAVOC_BUILD_TYPE=Official
+HAVOC_MAINTAINER := noobdev95
+HAVOC_GROUP_URL := https://t.me/realme7ProOfficial
+
 # Device identifier
 PRODUCT_NAME := havoc_RMX2170
 PRODUCT_DEVICE := RMX2170

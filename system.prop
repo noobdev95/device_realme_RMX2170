@@ -1,2 +1,8 @@
 # Display
 vendor.display.svi.config_path=/vendor/etc/svi_config_206B1.xml
+
+# Havoc stuff
+ro.havoc.device.name=Realme 7 Pro
+ro.havoc.group.url=https://t.me/realme7ProOfficial
+ro.havoc.maintainer=noobdev95
+ro.havoc.maintainer.username=noobdev95
