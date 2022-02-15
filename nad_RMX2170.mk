@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2020 The DotOS
+# Copyright (C) 2022 The Nusantara Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -10,16 +10,13 @@ $(call inherit-product, device/realme/RMX2170/device.mk)
 # Bootanimation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
 
-WITH_CORE_GAPPS := true
 EXTRA_FOD_ANIMATIONS := true
 
-EXTENDED_BUILD_TYPE := OFFICIAL
-
-# Inherit some common AospExtended stuff
-$(call inherit-product, vendor/aosp/common.mk)
+# Inherit some common Nusantara stuff
+$(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
 
 # Device identifier
-PRODUCT_NAME := aosp_RMX2170
+PRODUCT_NAME := nad_RMX2170
 PRODUCT_DEVICE := RMX2170
 PRODUCT_BRAND := Realme
 PRODUCT_MODEL := Realme 7 Pro
