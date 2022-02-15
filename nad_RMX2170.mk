@@ -10,6 +10,7 @@ $(call inherit-product, device/realme/RMX2170/device.mk)
 # Bootanimation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
 EXTRA_FOD_ANIMATIONS := true
+TARGET_USES_BLUR := true
 
 # Inherit some common Nusantara stuff
 $(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
