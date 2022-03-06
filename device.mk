@@ -31,6 +31,14 @@ PRODUCT_COPY_FILES += \
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
 
+# Camera
+PRODUCT_PACKAGES += \
+    GoogleCameraGo
+
+# Via Browser
+PRODUCT_PACKAGES += \
+    Via
+
 # Udfps
 PRODUCT_PACKAGES += \
     UdfpsResources
