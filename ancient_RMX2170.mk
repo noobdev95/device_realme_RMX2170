@@ -16,6 +16,9 @@ USE_PIXEL_CHARGING := true
 # Inherit some common AncientOS stuff.
 $(call inherit-product, vendor/ancient/config/common_full_phone.mk)
 
+# Ancient
+ANCIENT_OFFICIAL := true
+
 # Device identifier
 PRODUCT_NAME := ancient_RMX2170
 PRODUCT_DEVICE := RMX2170
