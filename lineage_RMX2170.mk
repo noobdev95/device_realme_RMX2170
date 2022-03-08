@@ -10,6 +10,12 @@ $(call inherit-product, device/realme/RMX2170/device.mk)
 # Bootanimation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
 
+# Fork LineageOS Stuffs
+TARGET_FLOS=true
+
+# GAPPS
+WITH_GMS=true
+
 # Inherit some common AospExtended stuff
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
