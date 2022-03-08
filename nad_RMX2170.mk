@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2022 The AncientOS
+# Copyright (C) 2022 The Nusantara Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -13,11 +13,14 @@ EXTRA_FOD_ANIMATIONS := true
 TARGET_USES_BLUR := true
 USE_PIXEL_CHARGING := true
 
-# Inherit some common AncientOS stuff.
-$(call inherit-product, vendor/ancient/config/common_full_phone.mk)
+# Inherit some common Nusantara stuff
+$(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
+
+# Nusantara Project Official
+NAD_BUILD_TYPE := OFFICIAL
 
 # Device identifier
-PRODUCT_NAME := ancient_RMX2170
+PRODUCT_NAME := nad_RMX2170
 PRODUCT_DEVICE := RMX2170
 PRODUCT_BRAND := Realme
 PRODUCT_MODEL := Realme 7 Pro
